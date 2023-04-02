@@ -22,90 +22,27 @@
         img {
             border: 0;
         }
-        .wrapper{
-            width: 100%;
-            table-layout: fixed;
-            padding-bottom: 20px;
-            padding-top: 20px;
-        }
-        .main{
-            width: 100%;
-            max-width: 600px;
-            background-color: #F4F8FB;
-        }
-        .two-columns{
-            display: flex;
-        }
-        .two-columns .column{
-            width: 100%;
-            max-width: 300px;
-            vertical-align: top;
-        }
-        .oneColumn{
-            width: 100%;
-            max-width: 600px;
-            text-align: center;
-        }
-        .threeColumn{
-            display: flex;
-        }
-        .threeColumn .column{
-            width: 33.33%;
-            vertical-align: top;
-        }
-        .footer-right-logo {
-            width: 106px;
-            height: 30px;
-            object-fit: contain;
-        }
-
-        @media only screen and (max-width: 767px){
-            .res-font-14 {
-                font-size: 14px !important;
-                line-height: 20px !important;
-            }
-            .res-font-16 {
-                font-size: 16px !important;
-                line-height: 24px !important;
-            }
-            .res-font-12 {
-                font-size: 12px !important;
-                line-height: 16px !important;
-            }
-            .res-font-10 {
-                font-size: 10px !important;
-                line-height: 16px !important;
-            }
-            .footer-logo {
-                width: 48px;
-            }
-            .footer-right-logo {
-                width: 72px;
-                height: 21px;
-                object-fit: contain;
-            }
-        }
     </style>
 </head>
 
 <body>
-    <center class="wrapper">
-        <table class="main" width="100%">
+    <center style="width: 100%; table-layout: fixed; padding-bottom: 20px; padding-top: 20px;">
+        <table style="width: 100%; max-width: 600px; background-color: #F4F8FB;" width="100%">
         <tr>
             <td>
                 <table width="100%">
                     <!-- Header -->
                     <tr>
-                        <td class="two-columns" style="padding: 6.25% 6.25% 0; margin-bottom: 24px;">
-                            <table class="column">
+                        <td style="display: flex; padding: 6.25% 6.25% 0; margin-bottom: 24px;">
+                            <table style="width: 100%; max-width: 300px; vertical-align: top;">
                                 <tr>
                                     <td class="logo">
-                                        <a href="#"><img src="./images/logo.png" width="66" alt=""></a>
+                                        <a href="#" style="text-decoration: none;"><img src="https://storage.jatri.co/RentalInvoiceAssests/logo.png" width="66" alt="jatri logo"></a>
                                     </td>
                                 </tr>
                             </table>
 
-                            <table class="column">
+                            <table style="width: 100%; max-width: 300px; vertical-align: top;">
                                 <tr style="text-align: end;">
                                     <td>
                                         <span style="display: block; font-weight: 500; font-size: 12px; line-height: 16px; text-align: right; color: #151414;">14 October, 2022</span>
@@ -124,14 +61,14 @@
                                     <td style="background-color: #fff; border: 1px solid #EDEDED; border-radius: 12px;">
                                         <table width="100%">
                                             <tr>
-                                                <td class="two-columns" style="padding: 24px 24px 18px; border-bottom: 1px solid #EDEDED;">
-                                                    <table class="column" >
+                                                <td style="display: flex; padding: 24px 24px 18px; border-bottom: 1px solid #EDEDED;">
+                                                    <table style="width: 100%; max-width: 300px; vertical-align: top;" >
                                                         <tr>
                                                             <td style="font-weight: 500; font-size: 14px; line-height: 20px; color: #4D4D4F;">ট্রিপ আইডি: <span style="font-weight: 600;">JR1676547981E4</span></td>
                                                         </tr>
                                                     </table>
 
-                                                    <table class="column" >
+                                                    <table style="width: 100%; max-width: 300px; vertical-align: top;" >
                                                         <tr>
                                                             <td style="display: inline-block; text-align: right; width: 100%;">
                                                                 <div style="display: inline-block; height:20px; border: 1px solid #8D8D8F; border-radius: 40px; font-size: 12px; line-height: 20px; font-weight: 500; text-align: center; color: #4D4D4F; padding:1px 12px">
@@ -148,26 +85,18 @@
                                                     <table  cellspacing="0">
                                                         <tr>
                                                             <td>
-                                                                <div style="display: flex; padding-bottom: 4px;">
-                                                                    <img src="./images/pickup.png" alt="pickup icon" style="width: 15px;">
-                                                                </div>
-                                                                <div style="display: flex; margin-left:6px;">
-                                                                    <img src="./images/verticle-line.png" alt="|" style="width: 2px;">
-                                                                </div>
-                                                                <div style="display: flex; padding-top: 4px;">
-                                                                    <img src="./images/drop.png" alt="drop icon" style="width: 15px;">
-                                                                </div>
+                                                                <img src="https://storage.jatri.co/RentalInvoiceAssests/pickup_to_destination.png" alt="pickup_to_destination img" style="width: 14px">
                                                             </td>
                                                             <td style="width: 100%;">
-                                                                <div style="padding-left: 16px; flex-direction: column;">
+                                                                <div style="padding-left: 16px;">
                                                                     <div>
                                                                         <div style="font-weight: 500; font-size: 12px; line-height: 16px; color: #4D4D4F;">পিকআপ লোকেশন</div>
-                                                                        <div class="res-font-14" style="margin-top: 2px; font-size: 16px; line-height: 24px; font-weight: 600; color: #151414; margin-bottom:12px">Radisson Blu Dhaka Water Garden, Airport Rd</div>
+                                                                        <div style="margin-top: 2px; font-size: 16px; line-height: 24px; font-weight: 600; color: #151414; margin-bottom:12px">Radisson Blu Dhaka Water Garden, Airport Rd</div>
                                                                     </div>
                                                                     <div style="border-top: 1px solid #EDEDED; width: 98%; margin-right:30px; margin: 13px 0;"></div>
                                                                     <div style="width:100%;">
                                                                         <div style="font-weight: 500; font-size: 12px; line-height: 16px; color: #4D4D4F;">ড্রপ অফ লোকেশন</div>
-                                                                        <div class="res-font-14" style="margin-top: 2px; font-size: 16px; line-height: 24px; font-weight: 600; color: #151414;">Radisson Blu Dhaka Water Garden, Airport Rd</div>
+                                                                        <div style="margin-top: 2px; font-size: 16px; line-height: 24px; font-weight: 600; color: #151414;">Radisson Blu Dhaka Water Garden, Airport Rd</div>
                                                                     </div>
                                                                 </div>
                                                             </td>
@@ -180,8 +109,8 @@
                                                 <td style="padding: 16px 24px 24px; border-top: 1px solid #EDEDED;">
                                                     <table width="100%">
                                                         <tr>
-                                                            <td class="res-font-12" style="font-weight: 500; font-size: 16px; line-height: 24px; color: #151414;">আপনার কনফার্মকৃত ভাড়া</td>
-                                                            <td class="res-font-12" style="font-weight: 500; font-size: 16px; line-height: 24px; color: #151414; text-align: right;">৫০০০ টাকা</td>
+                                                            <td style="font-weight: 500; font-size: 100%; line-height: 24px; color: #151414;">আপনার কনফার্মকৃত ভাড়া</td>
+                                                            <td style="font-weight: 500; font-size: 100%; line-height: 24px; color: #151414; text-align: right;">৫০০০ টাকা</td>
                                                         </tr>
                                                     </table>
                                                 </td>
@@ -195,8 +124,8 @@
 
                     <!-- Two Cards -->
                     <tr>
-                        <td class="two-columns" style="padding: 20px 6.25%">
-                            <table class="column" style="margin-right: 10px;">
+                        <td style="display: flex; padding: 20px 6.25%">
+                            <table style="width: 100%; max-width: 300px; vertical-align: top; margin-right: 10px;">
                                 <tr>
                                     <td style="background-color: #fff; border: 1px solid #EDEDED; border-radius: 12px; vertical-align: top;">
                                         <table width="100%">
@@ -212,7 +141,7 @@
                                                             <td>
                                                                 <div style="font-weight: 400; font-size: 12px; line-height: 16px; color: #8D8D8F;">যেকোনো প্রয়োজনে কল করুন</div>
                                                                 <div style="margin: 5px 0 12px; font-weight: 500; font-size: 14px; line-height: 20px; color: #151414;">যাত্রী কাস্টমার সেন্টার</div>
-                                                                <div class="res-font-14" style="font-weight: 600; font-size: 16px; line-height: 24px; color: #151414;">09642080808</div>
+                                                                <div style="font-weight: 600; font-size: 16px; line-height: 24px; color: #151414;">09642080808</div>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -223,7 +152,7 @@
                                 </tr>
                             </table>
 
-                            <table class="column" style="margin-left: 10px;">
+                            <table style="width: 100%; max-width: 300px; vertical-align: top; margin-left: 10px;">
                                 <tr>
                                     <td style="background-color: #fff; border: 1px solid #EDEDED; border-radius: 12px; vertical-align: top;">
                                         <table width="100%">
@@ -239,7 +168,7 @@
                                                             <td>
                                                                 <div style="font-weight: 400; font-size: 12px; line-height: 16px; color: #8D8D8F;">ন্যাশনাল হেল্পলাইন</div>
                                                                 <div style="margin: 5px 0 12px; font-weight: 500; font-size: 14px; line-height: 20px; color: #151414;">জরুরী সেবা সেন্টার</div>
-                                                                <div class="res-font-14" style="font-weight: 600; font-size: 16px; line-height: 24px; color: #151414;">999</div>
+                                                                <div style="font-weight: 600; font-size: 16px; line-height: 24px; color: #151414;">999</div>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -260,7 +189,7 @@
                                     <td style="background-color: #1E88E5; border: 1px solid #1E88E5; border-radius: 8px;">
                                         <table width="100%">
                                             <tr>
-                                                <td class="two-columns" style="padding: 16px 5% 14px;">
+                                                <td style="display: flex; padding: 16px 5% 14px;">
                                                     <table>
                                                         <tr>
                                                             <td>
@@ -271,7 +200,7 @@
 
                                                     <table>
                                                         <tr>
-                                                            <td class="res-font-14" style="padding-left: 10px; color: #FFFFFF; font-weight: 500; font-size: 16px; line-height: 24px;">
+                                                            <td style="padding-left: 10px; color: #FFFFFF; font-weight: 500; font-size: 16px; line-height: 24px;">
                                                                 বিস্তারিত অ্যাপে দেখুন, এবং ড্রাইভার এর সাথে যোগাযোগ করুন
                                                             </td>
                                                         </tr>
@@ -293,7 +222,7 @@
                                     <td style="background-color: #fff; border: 1px solid #EDEDED; border-radius: 12px;">
                                         <table width="100%">
                                             <tr>
-                                                <td class="two-columns" style="padding: 18px 24px 12px; border-bottom: 1px solid #EDEDED;">
+                                                <td style="display: flex; padding: 18px 24px 12px; border-bottom: 1px solid #EDEDED;">
                                                     <table>
                                                         <tr>
                                                             <td>
@@ -304,7 +233,7 @@
 
                                                     <table>
                                                         <tr>
-                                                            <td class="res-font-16" style="vertical-align: baseline; padding-left: 12px; font-weight: 500; font-size: 20px; line-height: 27px; color: #151414;">
+                                                            <td style="vertical-align: baseline; padding-left: 12px; font-weight: 500; font-size: 20px; line-height: 27px; color: #151414;">
                                                                 গুরুত্বপূর্ণ নির্দেশিকা
                                                             </td>
                                                         </tr>
@@ -314,7 +243,7 @@
 
                                             <tr>
                                                 <td style="padding: 16px 24px;">
-                                                    <ul class="res-font-14" style="margin: 0; padding: 0 0 0 16px; font-weight: 400; font-size: 16px; line-height: 24px; color: #000000;">
+                                                    <ul style="margin: 0; padding: 0 0 0 16px; font-weight: 400; font-size: 16px; line-height: 24px; color: #000000;">
                                                         <li style="margin-bottom: 5px;">ড্রাইভারকে ট্রিপ এর বিস্তারিত তথ্য শেয়ার করুন</li>
                                                         <li style="margin-bottom: 5px;">গাড়িতে ওঠার পূর্বে অ্যাপে প্রদর্শিত ড্রাইভার এবং গাড়ির তথ্য মিলিয়ে নিন</li>
                                                         <li style="margin-bottom: 5px;">আপনার সুরক্ষা নিশ্চিত করতে, পরিবার কিংবা নিকটজনের সাথে ট্রিপ এর বিস্তারিত শেয়ার করে রাখুন</li>
@@ -339,7 +268,7 @@
                                     <td style="background-color: #fff; border: 1px solid #EDEDED; border-radius: 12px;">
                                         <table width="100%">
                                             <tr>
-                                                <td class="two-columns" style="padding: 18px 26px 12px;">
+                                                <td style="display: flex; padding: 18px 26px 12px;">
                                                     <table>
                                                         <tr>
                                                             <td style="vertical-align: top;">
@@ -350,7 +279,7 @@
 
                                                     <table>
                                                         <tr>
-                                                            <td class="res-font-12" style="padding-left: 12px; font-weight: 500; font-size: 14px; line-height: 22px; color: #E0293B;">
+                                                            <td style="padding-left: 12px; font-weight: 500; font-size: 14px; line-height: 22px; color: #E0293B;">
                                                                 বিঃ দ্রঃ ইউজার কিংবা ড্রাইভার, কারো দ্বারা কোনো ধরণের অপরাধমূলক বা বেআইনি কর্মকাণ্ড সংগঠিত হলে; এর দায়ভার তাঁকেই বহন করতে হবে “যাত্রী সার্ভিসেস লিমিটেড কর্তৃপক্ষ’’ কোনো দায়ভার গ্রহণ করবে না
                                                             </td>
                                                         </tr>
@@ -376,7 +305,7 @@
                                                     <table style="width:30%">
                                                         <tr>
                                                             <td>
-                                                                <a href="#"> <img class="footer-logo" src="./images/jatri-white-logo.png" alt="jatri white logo"></a>
+                                                                <a href="#"> <img class="footer-logo" src="./images/jatri-white-logo.png" width="66" alt="jatri white logo"></a>
                                                             </td>
                                                         </tr>
                                                     </table>
@@ -385,8 +314,12 @@
                                                         <tr>
                                                             <td style="text-align: end;">
                                                                 <div style="display: inline-flex;">
-                                                                    <img class="footer-right-logo" src="./images/google-play-badge.png" alt="google-play-badge img">
-                                                                    <img class="footer-right-logo" src="./images/visit-jatri.png" style="margin-left: 6px;" alt="visit jatri img">
+                                                                    <a href="" style="text-decoration: none;">
+                                                                        <img class="footer-right-logo" src="https://storage.jatri.co/RentalInvoiceAssests/google_play.png" style="width: 80px; height: 21px;" alt="google-play-badge img">
+                                                                    </a>
+                                                                    <a href="" style="text-decoration: none;">
+                                                                        <img class="footer-right-logo" src="https://storage.jatri.co/RentalInvoiceAssests/jatri.png" style="margin-left: 6px; width: 80px; height: 21px;" alt="visit jatri img">
+                                                                    </a>
                                                                 </div>
                                                             </td>
                                                         </tr>
@@ -395,24 +328,24 @@
                                             </tr>
 
                                             <tr>
-                                                <td class="two-columns" style="padding-top: 16px; border-bottom: 1px solid rgb(199, 177, 177); padding-bottom: 16px;">
-                                                    <table class="column">
+                                                <td style="display: flex; padding-top: 16px; border-bottom: 1px solid rgb(199, 177, 177); padding-bottom: 16px;">
+                                                    <table style="width: 100%; max-width: 300px; vertical-align: top;">
                                                         <tr>
                                                             <td style="text-align: start;">
                                                                 <a href="mailto:support@jatri.co" style="text-decoration: none;">
-                                                                    <img src="./images/question.png" alt="?" style="vertical-align: middle; font-weight: 500; width: 18px;">
-                                                                    <span class="res-font-14" style="font-weight: 500; font-size: 16px; line-height:24px; color: white; margin-left: 4px;">support@jatri.co</span>
+                                                                    <img src="https://storage.jatri.co/RentalInvoiceAssests/question.png" alt="?" style="vertical-align: middle; font-weight: 500; width: 18px;">
+                                                                    <span style="font-weight: 500; font-size:100%; line-height:24px; color: white; margin-left: 4px;">support@jatri.co</span>
                                                                 </a>
                                                             </td>
                                                         </tr>
                                                     </table>
                         
-                                                    <table class="column">
+                                                    <table style="width: 100%; max-width: 300px; vertical-align: top;">
                                                         <tr>
                                                             <td style="text-align: end;">
                                                                 <a href="tel:09642080808" style="text-decoration: none; font-weight: 500;">
-                                                                    <img src="./images/phone-white.png" alt="" style="vertical-align: middle; width: 16px;">
-                                                                    <span class="res-font-14" style="font-weight: 500; font-size: 16px; line-height:24px; color: white; padding-left: 4px;">09642080808</span>
+                                                                    <img src="https://storage.jatri.co/RentalInvoiceAssests/phone.png" alt="" style="vertical-align: middle; width: 16px;">
+                                                                    <span style="font-weight: 500; font-size:100%; line-height:24px; color: white; padding-left: 4px;">09642080808</span>
                                                                 </a>
                                                             </td>
                                                         </tr>
@@ -422,34 +355,40 @@
 
                                             <tr>
                                                 <td style="text-align: center; padding: 16px 0; border-bottom: 1px solid rgb(199, 177, 177);">
-                                                    <img src="./images/facebook.png" alt="youtube" style="width: 24px; height: 24px;">
-                                                    <img src="./images/youtube.png" alt="youtube" style="padding: 0 40px; width: 24px; height: 24px;">
-                                                    <img src="./images/linkedin.png" alt="linkedin" style="width: 24px; height: 24px;">
+                                                    <a style="text-decoration: none;" href="">
+                                                        <img src="https://storage.jatri.co/RentalInvoiceAssests/facebook.png" alt="youtube" style="width: 24px; height: 24px;">
+                                                    </a>
+                                                    <a style="text-decoration: none;" href="">
+                                                        <img src="https://storage.jatri.co/RentalInvoiceAssests/youtube.png" alt="youtube" style="padding: 0 40px; width: 24px; height: 24px;">
+                                                    </a>
+                                                    <a style="text-decoration: none;" href="">
+                                                        <img src="https://storage.jatri.co/RentalInvoiceAssests/linkedin.png" alt="linkedin" style="width: 24px; height: 24px;">
+                                                    </a>                                                                                                 
                                                 </td>
                                             </tr>
                                             
                                             <tr>
-                                                <td class="threeColumn" style="padding-top:16px;">
-                                                    <table class="column">
+                                                <td style="display: flex; padding-top:16px;">
+                                                    <table style="width: 33.33%; vertical-align: top;">
                                                         <tr>
                                                             <td style="text-align: start;">
-                                                                <a class="res-font-10" href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 14px;">Terms and condition </a>
+                                                                <a href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 12px;">Terms and condition </a>
                                                             </td>
                                                         </tr>
                                                     </table>
                         
-                                                    <table class="column" >
+                                                    <table style="width: 33.33%; vertical-align: top;" >
                                                         <tr>
                                                             <td style="text-align: center;">
-                                                                <a class="res-font-10" href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 14px;">Return & refund policy </a>
+                                                                <a href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 12px;">Return & refund policy </a>
                                                             </td>
                                                         </tr>
                                                     </table>
                                                                 
-                                                    <table class="column" >
+                                                    <table style="width: 33.33%; vertical-align: top;" >
                                                         <tr>
                                                             <td style="text-align: end;">
-                                                                <a class="res-font-10" href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 14px;">Privacy policy </a>
+                                                                <a href="#" style="text-decoration: none; border-bottom:1px solid #fff; color: white; font-weight: 500; font-size: 12px;">Privacy policy </a>
                                                             </td>
                                                         </tr>
                                                     </table>
